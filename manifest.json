@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+
+	"name": "TinyWins",
+	"version": "0.0.1",
+	"description": "An extension that loads TinyWins in each new browser tab.",
+	"author": "Michael Lee (@michaelsoolee)",
+	"homepage_url": "https://tinywins.net",
+
+	"page_action": {
+		"default_icon": "favicon-32x32.png"
+	},
+
+	"background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+
+	"permissions": [
+		"tabs",
+		"cookies"
+	]
+}
