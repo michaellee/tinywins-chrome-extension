@@ -3,7 +3,7 @@
 
 	"name": "TinyWins",
 	"version": "0.0.1",
-	"description": "An extension that loads TinyWins in each new browser tab.",
+	"description": "Loads TinyWins in a new blank browser tab.",
 	"author": "Michael Lee (@michaelsoolee)",
 	"homepage_url": "https://tinywins.net",
 
